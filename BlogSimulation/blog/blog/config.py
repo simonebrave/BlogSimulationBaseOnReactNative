@@ -1,8 +1,8 @@
-USERNAME = 'simone'
-PASSWORD = 'simone'
-IP = '192.168.10.109'
-PORT = '3306'
-DATABASE = 'blog'
+USERNAME = 'USERNAME'
+PASSWORD = 'PASSWORD'
+IP = 'SERVER IP'
+PORT = 'PORT'
+DATABASE = 'DATABASE NAME'
 PARAMS = 'charset=utf8mb4'
 
 URL = "mysql+pymysql://{}:{}@{}:{}/{}?{}".format(USERNAME, PASSWORD, IP, PORT, DATABASE, PARAMS)
